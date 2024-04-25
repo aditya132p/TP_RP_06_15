@@ -1,4 +1,4 @@
-function name (a){
-  console.log(`Hello, ${a}`)
+function greet (name){
+  console.log(`Hello, ${name}`)
 }
-name("aditya")
+greet("aditya")
