@@ -27,3 +27,34 @@ calcArea(10, 14); // Calculate the area of a rectangle with width 10 and height 
 fahrenheitToCelsius(-459.67); // Convert -459.67°F to Celsius
 celsiusToFahrenheit(0); // Convert 0°C to Fahrenheit
 
+// Calculator function
+function add(a, b) {
+  return a + b;
+}
+
+// Function to subtract two numbers
+function subtract(a, b) {
+  return a - b;
+}
+
+// Function to multiply two numbers
+function multiply(a, b) {
+  return a * b;
+}
+
+// Function to divide two numbers
+function divide(a, b) {
+  return a / b;
+}
+
+// Call add function
+console.log(add(5, 3)); // Output: 8
+
+// Call subtract function
+console.log(subtract(5, 3)); // Output: 2
+
+// Call multiply function
+console.log(multiply(5, 3)); // Output: 15
+
+// Call divide function
+console.log(divide(5, 3)); // Output: 1.6666
