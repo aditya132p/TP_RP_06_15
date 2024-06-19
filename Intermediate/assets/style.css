@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,400;0,500;0,600;0,700;0,800;1,500;1,600;1,700;1,800&family=Barlow:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,500;1,600;1,700;1,800&family=Poppins&display=swap');
+
+/* Global Selectors */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+    background-color: cornflowerblue;
+}
+
+/*
+font-family: 'Barlow', sans-serif;
+font-family: 'Barlow Condensed', sans-serif;
+ font-family: 'Poppins', sans-serif;
+*/
+
+ /* Id Selectors */
+
+#form {
+    background-color: rgb(238, 244, 254);
+    width: 400px;
+    height: 400px;
+    display: flex;
+    border-radius: 20px;
+    flex-direction: column;
+    align-items: center;
+    margin: 100px auto;
+    gap:0.8rem;
+    padding: 1rem 1.8rem;
+}
+
+/* Class Selectors */
+.input-elm{
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Tag Selectors */
+input {
+    width: 15rem;
+    padding: 0.5rem 1.5rem;
+}
+button{
+    padding: 0.6rem 2rem;
+    background-color:cornflowerblue;
+    border: none;
+    border-radius: 10px;
+    font-weight: 600;
+    color: azure;
+    
+}
